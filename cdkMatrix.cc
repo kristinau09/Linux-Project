@@ -1,5 +1,5 @@
 /*
- * Filename        binReader.h
+ * Filename        cdkMatrix.h
  * Date            05/04/2019
  * Author          Kristina Upadhaya
  * Email           kxu160730@utdallas.edu
