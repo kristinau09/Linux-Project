@@ -35,8 +35,8 @@ int main(){
 
   const char 		*rowTitles[MATRIX_WIDTH+1] = {"R0", "a", "b", "c","d","e"};
   const char 		*columnTitles[MATRIX_HEIGHT+1] = {"C0", "a", "b", "c"};
-  int		boxWidths[MATRIX_WIDTH+1] = {BOX_WIDTH, BOX_WIDTH, BOX_WIDTH, BOX_WIDTH};
-  int		boxTypes[MATRIX_WIDTH+1] = {vMIXED, vMIXED, vMIXED, vMIXED};
+  int		boxWidths[MATRIX_WIDTH+1] = {BOX_WIDTH, BOX_WIDTH, BOX_WIDTH, BOX_WIDTH,BOX_WIDTH, BOX_WIDTH};
+  int		boxTypes[MATRIX_WIDTH+1] = {vMIXED, vMIXED, vMIXED, vMIXED,vMIXED, vMIXED};
 
   // Initialize the Cdk screen.
    
@@ -69,11 +69,11 @@ int main(){
   for(int i=1;i<=MATRIX_WIDTH;i++)
   {
     for(int j=1;j<=MATRIX_HEIGHT;j++){
-
+      if(!((j>2)&&(i>1))){
       const char * val=(binMap[mapIndex++]).c_str(); 
       setCDKMatrixCell(myMatrix, i, j, val );
       drawCDKMatrix(myMatrix, true);    
-    
+    }
 
     
     }

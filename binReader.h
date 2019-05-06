@@ -17,7 +17,7 @@
    #include <bits/stdc++.h>
    #include <stdint.h>
    using namespace std;
-    const int maxStr=20;
+    const int maxStr=25;
     extern map<int,string> binMap;
     void binParser(); 
  
