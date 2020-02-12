@@ -1,15 +1,11 @@
 /*
- * Filename        binReader.cc
- * Date            05/04/2019
- * Author          Kristina Upadhaya
- * Email           kxu160730@utdallas.edu
- * Course          CS 3377.502
- * Version         1.0
- * Copyright 2019, All Rights Reserved
- * 
+ * Kristina
+ * binReader.cc
  * Description: parses the binary file and fills the map
  * 
  */
+
+
  #include <iostream>
  #include <string>
  #include <map> 
