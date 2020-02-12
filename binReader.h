@@ -1,12 +1,5 @@
 /*
- * Filename        binReader.h
- * Date            05/04/2019
- * Author          Kristina Upadhaya
- * Email           kxu160730@utdallas.edu
- * Course          CS 3377.502
- * Version         1.0
- * Copyright 2019, All Rights Reserved
- * 
+ * Filename:    binReader.h
  * Description: header file
  * 
  */
